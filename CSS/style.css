@@ -73,12 +73,12 @@
 }
 .jumbo h1 {
     width: 100%;
-    font-size: 64px;
+    font-size: 78px;
     margin-bottom: 5%;
 }
 .jumbo-group {
     display: flex;
-    width: 110%;
+    width: 120%;
 }
 .jumbo-text {
     width: 32%;
@@ -111,3 +111,96 @@
                                    PLANS
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 */
+.main-container {
+    width: 60%;
+    margin: 10% auto;
+}
+.business-plan {
+    width: 100%;
+}
+.business-plan h1 {
+    font-size: 40px;
+}
+.payment {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.checkbox-round {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid gray;
+    appearance: none;
+    margin-right: 5px;
+}
+.checkbox-round:checked {
+    border: 4px solid rgb(0, 97, 255);
+}
+.offers-container {
+    display: flex;
+    gap: 20px;
+}
+.professional, .advanced, .enterprise {
+    border: 1px solid gray;
+    width: calc(100%/3 - 20px);
+}
+.user {
+    text-align: center;
+    padding: 6px;
+    border-bottom: 1px solid gray;
+}
+.description {
+    width: 80%;
+    margin: 10% auto;
+}
+.packet {
+    line-height: 185%;
+}
+.price {
+    font-weight: bold;
+    font-size: 14px;
+}
+.how-often {
+    color: gray;
+    font-size: 14px;
+}
+.packet-content {
+    margin: 15% 0;
+    display: flex;
+    flex-direction: column;
+}
+.thirty-days-trial {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.thirty-days-trial a {
+    text-decoration: none;
+    color: white;
+}
+.breaking-line {
+    margin: 20% 0;
+    width: 20%;
+    height: 0.5px;
+    background-color: gray;
+}
+.focus-point h4 {
+    margin-bottom: 10%;
+}
+.focus-point ul {
+    list-style: none;
+}
+.point-container {
+    display: flex;
+    margin-bottom: 10%;
+}
+.bullet-point {
+    margin-right: 5%;
+}
+.fa-solid {
+    margin-right: 2%;
+}
