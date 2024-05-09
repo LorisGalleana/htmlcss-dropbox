@@ -30,7 +30,8 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    
+    margin-bottom: 50px;
+    background-color: white;
 }
 .upper-left {
     display: flex;
@@ -55,3 +56,58 @@
 .start a {
     color: white;
 }
+/* 
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+                                   JUMBOTRON
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+*/
+.jumbo-container {
+    width: 100%;
+    background-color: rgb(180, 208, 231);
+    height: 70%;
+    padding-top: 50px;
+}
+.jumbo {
+    width: 60%;
+    margin: 10vh auto;
+}
+.jumbo h1 {
+    width: 100%;
+    font-size: 64px;
+    margin-bottom: 5%;
+}
+.jumbo-group {
+    display: flex;
+    width: 110%;
+}
+.jumbo-text {
+    width: 32%;
+    margin-right: 10px;
+    text-align: start;
+}
+.jumbo-text p {
+    margin-bottom: 10%;
+}
+.free-trial {
+    width: 61%;
+    margin-bottom: 7%;
+}
+.free-trial a {
+    color: white;
+    text-decoration: none;
+}
+.jumbo-text .button-bg {
+    padding: 7px 10px;
+}
+.jumbo-img  {
+    width: 45%;
+}
+.jumbo-img img {
+    width: 120%;
+    height: 120%;
+}
+/* 
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+                                   PLANS
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+*/
