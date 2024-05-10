@@ -111,7 +111,7 @@
                                    PLANS
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 */
-.main-container {
+.sub-container {
     width: 60%;
     margin: 10% auto;
 }
@@ -178,9 +178,13 @@
     text-align: center;
     margin-bottom: 10%;
 }
-.thirty-days-trial a {
+.description a {
     text-decoration: none;
     color: white;
+}
+.description .buy-now {
+   color: rgb(0, 97, 255);
+   text-decoration: underline; 
 }
 .breaking-line {
     margin: 20% 0;
@@ -203,4 +207,30 @@
 }
 .fa-solid {
     margin-right: 2%;
+}
+.enterprise-contact {
+    border: 1px solid gray;
+    margin-top: 10%;
+ 
+}
+.contact-us {
+    width: 95%;
+    margin: 3% auto;
+    display: flex;
+}
+.contact-text {
+    width: 78%;
+}
+.contact-text h2 {
+    margin-bottom: 2%;
+}
+.contact-text h4 {
+    margin-bottom: 15%;
+}
+.contact-button {
+    width: 100%;
+}
+.contact-us a {
+    color: white;
+    text-decoration: none;
 }
