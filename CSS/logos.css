@@ -76,3 +76,34 @@
                                   TRANSISTION
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 */
+.left-lt:hover {
+    border: 10px solid rgb(189, 224, 184);
+}
+.left-rt:hover {
+    border: 10px solid rgb(170, 14, 76);
+}
+.left-lb:hover {
+    border: 10px solid rgb(59, 129, 186);
+}
+.left-rb:hover {
+    border: 10px solid rgb(255, 112, 112);
+}
+.right-lt:hover {
+    border: 10px solid rgb(255, 31, 64);
+}
+.right-rt:hover {
+    border: 10px solid rgb(69, 139, 196);
+}
+.right-lb:hover {
+    border: 10px solid rgb(32, 72, 233);
+}
+.right-rb:hover {
+    border: 10px solid rgb(245, 200, 0);
+}
+.left-lt:hover .hide, .left-rt:hover .hide1, .left-lb:hover .hide2, .left-rb:hover .hide3 {
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 33%;
+    width: 20% ; 
+}

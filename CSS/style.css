@@ -329,23 +329,13 @@
 .hide, .hide1, .hide2, .hide3  {
     display: none;
 }
-.left-lt:hover .hide, .left-rt:hover .hide1, .left-lb:hover .hide2, .left-rb:hover .hide3 {
-    display: block;
-    position: absolute;
-    left: 40%;
-    top: 33%;
-    width: 20% ;
 
-    
-}
 .hide .breaking-line, .hide1 .breaking-line, .hide2 .breaking-line, .hide3 .breaking-line {
     width: 10%;
     background-color: gray;
     height: 1px;
     margin: 5% 0;
 }
-
 .quote {
     margin-top: 10%;
 }
-
