@@ -36,28 +36,28 @@
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 */
 .left-lt img {
-    width: 50%;
+    width: 40%;
 }
 .left-rt img {
-    width: 45%;
+    width: 30%;
 }
 .left-lb img {
-    width: 50%;
+    width: 40%;
 }
 .left-rb img {
-    width: 45%;
+    width: 50%;
 }
 .right-lt img {
-    width: 50%;
+    width: 60%;
 }
 .right-rt img {
-    width: 50%;
+    width: 40%;
 }
 .right-lb img {
-    width: 45%;
+    width: 40%;
 }
 .right-rb img {
-    width: 45%;
+    width: 30%;
 }
 .hide img {
     width: 70%;

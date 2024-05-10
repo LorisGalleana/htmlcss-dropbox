@@ -66,7 +66,6 @@
 .jumbo-container {
     width: 100%;
     background-color: rgb(180, 208, 231);
-    height: 70%;
     padding-top: 50px;
 }
 .jumbo {
@@ -153,6 +152,7 @@
 .professional, .advanced, .enterprise {
     border: 1px solid gray;
     width: calc(100%/3 - 20px);
+    padding-bottom: 10%;
 }
 .user {
     text-align: center;
@@ -315,7 +315,6 @@
 }
 .logos-left, .logos-center, .logos-right {
     width: calc(100%/3);
-    height: 400px;
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -325,6 +324,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 19.5% 0;
 }
 .hide, .hide1, .hide2, .hide3  {
     display: none;
@@ -338,4 +338,55 @@
 }
 .quote {
     margin-top: 10%;
+}
+/* 
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+                                   TAKE DROPBOX
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+*/
+.take-dropbox {
+    width: 100%;
+    background-color: rgb(180, 208, 231);
+    padding: 5% 0;
+}
+.take-dropbox .sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.take-text {
+    width: 50%;
+}
+.take-button {
+    background-color: white;
+    text-align: top;
+    padding: 5px 10px;
+    width: 25%;
+    margin-bottom: 3%;
+}
+/* 
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+                                   F.A.Q
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
+*/
+.faq {
+    margin: 10% 0;
+}
+.faq h2 {
+    margin-bottom: 5%;
+}
+.faq .breaking-line {
+    width: 100%;
+    background-color: gray;
+    height: 1.5px;
+    margin: 3% 0 ;
+}
+.question {
+    font-weight: bold;
+}
+.question-line:hover .hide {
+    display: block;
+    margin-top: 3%;
+    color: gray;
 }
