@@ -36,28 +36,40 @@
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 */
 .left-lt img {
-    width: 30%;
+    width: 50%;
 }
 .left-rt img {
-    width: 30%;
+    width: 45%;
 }
 .left-lb img {
-    width: 30%;
+    width: 50%;
 }
 .left-rb img {
-    width: 30%;
+    width: 45%;
 }
 .right-lt img {
-    width: 30%;
+    width: 50%;
 }
 .right-rt img {
-    width: 30%;
+    width: 50%;
 }
 .right-lb img {
-    width: 30%;
+    width: 45%;
 }
 .right-rb img {
-    width: 30%;
+    width: 45%;
+}
+.hide img {
+    width: 70%;
+}
+.hide1 img {
+    width: 40%;
+}
+.hide2 img {
+    width: 70%;
+}
+.hide3 img {
+    width: 70%;
 }
 /* 
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
