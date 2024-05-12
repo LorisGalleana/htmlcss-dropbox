@@ -69,7 +69,7 @@
     padding-top: 50px;
 }
 .jumbo {
-    width: 60%;
+    width: 70%;
     margin: 10vh auto;
 }
 .jumbo h1 {
@@ -89,6 +89,14 @@
 .jumbo-text p {
     margin-bottom: 10%;
 }
+.jumbo-text .down-arrow {
+    font-size: 48px;
+    margin-top: 25%;
+    
+}
+.jumbo-text .down-arrow a {
+    color: black;
+}
 .free-trial {
     width: 61%;
     margin-bottom: 7%;
@@ -107,7 +115,7 @@
     width: 120%;
     height: 120%;
 }
-/* 
+/* plans
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
                                    PLANS
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
@@ -210,7 +218,7 @@
 .bullet-point {
     margin-right: 5%;
 }
-.fa-solid {
+.offers-container .fa-solid {
     margin-right: 2%;
 }
 .enterprise-contact {
@@ -239,7 +247,7 @@
     color: white;
     text-decoration: none;
 }
-/* 
+/* find partner
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
                                    FIND PARTNER
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
@@ -275,7 +283,7 @@
     padding: 5px;
     margin-top: 10%
 }
-/* 
+/* multi operation
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
                                    MULTI OPERATION
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
@@ -296,7 +304,7 @@
 .operation-box img {
     width: 100%;
 }
-/* 
+/* many teams
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
                                    MANY TEAMS
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
@@ -329,7 +337,6 @@
 .hide, .hide1, .hide2, .hide3  {
     display: none;
 }
-
 .hide .breaking-line, .hide1 .breaking-line, .hide2 .breaking-line, .hide3 .breaking-line {
     width: 10%;
     background-color: gray;
@@ -339,7 +346,7 @@
 .quote {
     margin-top: 10%;
 }
-/* 
+/* take dropbox
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
                                    TAKE DROPBOX
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
@@ -365,7 +372,7 @@
     width: 25%;
     margin-bottom: 3%;
 }
-/* 
+/* f.a.q
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
                                    F.A.Q
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- 
@@ -384,9 +391,59 @@
 }
 .question {
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }
 .question-line:hover .hide {
     display: block;
     margin-top: 3%;
     color: gray;
+}
+/* bottom navigator
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+                                   BOTTOM NAVIGATOR
+ -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+*/
+.nav-footer {
+    width: 100%;
+    background-color: black;
+}
+.footer-container {
+    width: 70%;
+    margin: 0 auto;
+}
+.nav-container {
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bottom-menu {
+    width: calc(100%/5 - 20px);
+    margin: 10% 0;
+}
+.nav-bottom-menu ul {
+    list-style: none;
+}
+.nav-bottom-menu .nav-title {
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+.nav-bottom-menu li {
+    margin-top: 10%;
+}
+.nav-footer .breaking-line {
+    background-color: gray;
+    height: 1.5px;
+    width: 10%;
+    
+}
+.nav-footer .language {
+    color: gray;
+    padding: 5% 0 ;
+}
+.nav-footer .fa-solid {
+    margin-right: 1%;
+    margin-left: 0.5%;
+    vertical-align: middle;
 }
