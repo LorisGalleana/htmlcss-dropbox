@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 .container {
     background-color: white;
@@ -55,6 +56,9 @@
     background-color: rgb(0, 97, 255);
     padding: 5px 10px;
 }
+.button-bg:hover {
+    background-color: rgb(71, 142, 255);
+}
 .start a {
     color: white;
 }
@@ -74,7 +78,7 @@
 }
 .jumbo h1 {
     width: 100%;
-    font-size: 78px;
+    font-size: 66px;
     margin-bottom: 5%;
 }
 .jumbo-group {
@@ -91,7 +95,7 @@
 }
 .jumbo-text .down-arrow {
     font-size: 48px;
-    margin-top: 25%;
+    margin-top: 15%;
     
 }
 .jumbo-text .down-arrow a {
@@ -232,7 +236,7 @@
     display: flex;
 }
 .contact-text {
-    width: 78%;
+    width: 75%;
 }
 .contact-text h2 {
     margin-bottom: 2%;
@@ -282,6 +286,9 @@
     text-align: center;
     padding: 5px;
     margin-top: 10%
+}
+.partner-button:hover {
+    background-color: rgb(245, 245, 245);
 }
 /* multi operation
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
@@ -336,6 +343,7 @@
 }
 .hide, .hide1, .hide2, .hide3  {
     display: none;
+    font-size: 14px;
 }
 .hide .breaking-line, .hide1 .breaking-line, .hide2 .breaking-line, .hide3 .breaking-line {
     width: 10%;
@@ -359,7 +367,12 @@
 .take-dropbox .sub-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
+    height: 100%;
+}
+.take-dropbox a {
+    text-decoration: none;
+    color: black;
     height: 100%;
 }
 .take-text {
@@ -367,10 +380,10 @@
 }
 .take-button {
     background-color: white;
-    text-align: top;
     padding: 5px 10px;
-    width: 25%;
-    margin-bottom: 3%;
+}
+.take-button:hover {
+    background-color: rgb(245, 245, 245); 
 }
 /* f.a.q
  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
